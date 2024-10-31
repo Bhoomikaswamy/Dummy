@@ -62,7 +62,7 @@ void LED_ON_OFF(char choice) {
                GPIO_PORTF_DATA_R |= 0x04;
        }
     else if(choice=='G') {
-
+//adding comment line
                GPIO_PORTF_DATA_R |= 0x08;
        }
     else {
